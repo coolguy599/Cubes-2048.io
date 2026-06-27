@@ -41,7 +41,7 @@ public class PlayerController : MonoBehaviour
             playerCubeController = gameObject.AddComponent<CubeController>();
         }
 
-        playerCubeController.currentValue = 2;
+        playerCubeController.currentValue = 1073741824;
         playerCubeController.appearanceManager = appearanceManager;
         playerCubeController.UpdateAppearance();
 
