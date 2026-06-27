@@ -9,8 +9,8 @@ public class CubeSpawner : MonoBehaviour
     public int initialSpawnCount = 20;
     public float spawnAreaSize = 50f;
     public float spawnInterval = 5f;
-    public List<int> possibleValues = new List<int> { 2, 4, 8, 16, 32, 64 };
-    public int maxPlayerValueForSpawning = 64;
+    public List<int> possibleValues = new List<int> { 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192 };
+    public int maxPlayerValueForSpawning = 2048;
 
     float spawnTimer;
     public CubeController player;
